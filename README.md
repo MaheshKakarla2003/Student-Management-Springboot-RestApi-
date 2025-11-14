@@ -49,14 +49,18 @@ com.example.Student.Management
 
 
 ## 🌐 API Endpoints
-1.HTTP Method	Endpoint	Description 
-2.POST	/api/v1/students	Add a new student
+HTTP Method	Endpoint	Description 
 
+POST	/api/v1/students	Add a new student
 
 GET	/api/v1/students/{id}	Get a student by ID
+
 GET	/api/v1/students	Get all students
+
 PUT	/api/v1/students/{id}	Update an existing student
+
 DELETE	/api/v1/students/{id}	Delete a student by ID
+
 POST	/api/v1/students/bulk	Add multiple students (bulk add)
 
 ## 🧩 Validation Rules
