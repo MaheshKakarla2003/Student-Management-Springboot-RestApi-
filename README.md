@@ -26,6 +26,7 @@ This project demonstrates CRUD operations, DTO-based design, validation, error h
 | **API Testing** | Postman |
 
 ## 🏗️ Project Architecture
+---
 com.example.Student.Management
 │
 ├── controller # REST endpoints
@@ -45,6 +46,7 @@ com.example.Student.Management
 ├── exception # Global error handling
 │ └── GlobalExceptionHandler.java
 └── StudentManagementApplication.java
+---
 
 🌐 API Endpoints
 HTTP Method	Endpoint	Description
