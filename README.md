@@ -26,7 +26,7 @@ This project demonstrates CRUD operations, DTO-based design, validation, error h
 | **API Testing** | Postman |
 
 ## 🏗️ Project Architecture
----
+
 com.example.Student.Management
 │
 ├── controller # REST endpoints
@@ -46,18 +46,20 @@ com.example.Student.Management
 ├── exception # Global error handling
 │ └── GlobalExceptionHandler.java
 └── StudentManagementApplication.java
----
 
-🌐 API Endpoints
-HTTP Method	Endpoint	Description
-POST	/api/v1/students	Add a new student
+
+## 🌐 API Endpoints
+1.HTTP Method	Endpoint	Description 
+2.POST	/api/v1/students	Add a new student
+
+
 GET	/api/v1/students/{id}	Get a student by ID
 GET	/api/v1/students	Get all students
 PUT	/api/v1/students/{id}	Update an existing student
 DELETE	/api/v1/students/{id}	Delete a student by ID
 POST	/api/v1/students/bulk	Add multiple students (bulk add)
 
-🧩 Validation Rules
+## 🧩 Validation Rules
 Field	Validation	Example
 firstName	@NotBlank	"Mahesh"
 email	@Email + Unique	"mahesh@gmail.com"
@@ -66,7 +68,7 @@ dob	@Past	"2003-07-31"
 branch	Optional	"CSE"
 year	Range 1–4	2
 
-⚡ Exception Handling
+## ⚡ Exception Handling
 Exception	HTTP Code	Message
 NotFoundException	404	"Student not found"
 DataIntegrityViolationException	409	"Email already exists"
@@ -74,7 +76,7 @@ MethodArgumentNotValidException	400	"Validation failed"
 GenericException	500	"Internal server error"
 Centralized exception handling via GlobalExceptionHandler.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Mahesh Kakarla
 🎓 MCA Student | 💻 Java & Spring Boot Developer
 📍 Based in Bengaluru, India
