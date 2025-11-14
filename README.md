@@ -62,6 +62,7 @@ com.example.Student.Management
 │ └── GlobalExceptionHandler.java
 
 └── StudentManagementApplication.java
+<img width="1217" height="830" alt="Screenshot 2025-11-14 100322" src="https://github.com/user-attachments/assets/709ea7a6-36e9-40dd-bbe1-6f475527e3bc" />
 
 
 ## 🌐 API Endpoints
