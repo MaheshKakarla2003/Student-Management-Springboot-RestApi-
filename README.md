@@ -62,9 +62,9 @@ com.example.Student.Management
 │ └── GlobalExceptionHandler.java
 
 └── StudentManagementApplication.java
-<img width="1217" height="830" alt="Screenshot 2025-11-14 100322" src="https://github.com/user-attachments/assets/709ea7a6-36e9-40dd-bbe1-6f475527e3bc" />
-<img width="1249" height="330" alt="Screenshot 2025-11-14 100342" src="https://github.com/user-attachments/assets/c490d989-0abc-46c7-996f-7753071d2786" />
-<img width="1611" height="809" alt="Screenshot 2025-11-14 100435" src="https://github.com/user-attachments/assets/98482634-bc88-4030-b9d8-d7ebfb74e4e5" />
+
+<img width="800" height="600" alt="Screenshot 2025-12-01 152018" src="https://github.com/user-attachments/assets/55ddb3f3-c10b-41a0-a6b5-e8f60eb79279" />
+
 
 
 
